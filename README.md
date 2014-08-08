@@ -3,7 +3,7 @@ Simple-in-Database-Text-Analysis
 
 SQL queries for implementing <strong>relational algebra</strong> expressions, <strong>sparse matrix multiplication</strong> (usually used for huge sparse similarity matrices), and simple <strong>in-database text analysis</strong>.
 
-For details please refer to the file: TextAnalytics.html
+For details please refer to the file: <code>TextAnalytics.html</code> or <code>TextAnalytics.md</code>
 
 Database:
 

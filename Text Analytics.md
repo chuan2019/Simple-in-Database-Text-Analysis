@@ -188,7 +188,6 @@ OR:
       sqlite> SELECT a.* FROM Frequency a, Frequency b
          ...> WHERE a.docid == "10080_txt_crude" AND b.docid == "17035_txt_earn"
          ...> AND a.term == b.term;
-
       10080_txt_crude | april | 1
       10080_txt_crude | ended | 1
       10080_txt_crude | inc   | 1
@@ -197,11 +196,9 @@ OR:
       10080_txt_crude | profit| 1
       10080_txt_crude | reuter| 1
       10080_txt_crude | six   | 1
-
       sqlite> SELECT b.* FROM Frequency a, Frequency b
          ...> WHERE a.docid == "10080_txt_crude" AND b.docid == "17035_txt_earn"
          ...> AND a.term == b.term;
-
       17035_txt_earn  | april | 2
       17035_txt_earn  | ended | 1
       17035_txt_earn  | inc   | 1

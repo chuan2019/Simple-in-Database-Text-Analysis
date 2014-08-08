@@ -41,7 +41,7 @@
       96_txt_acq|washington|1
       96_txt_acq|york|1
       </font>
-   </pre><br>
+   </pre>
 
 (b) <strong>select project</strong>: Write a SQL statement that is equivalent to the following relational algebra expression:
 

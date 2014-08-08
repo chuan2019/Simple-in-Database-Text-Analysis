@@ -45,9 +45,9 @@
 
 (b) <strong>select project</strong>: Write a SQL statement that is equivalent to the following relational algebra expression:
 
-      <center><strong><code>
+   <center><strong><code>
       &Pi;<sub>term</sub>(&sigma;<sub>docid=10398_txt_earn and count=1</sub>(frequency))
-      </code></strong></center>
+   </code></strong></center>
 
    <pre>
       sqlite> -- count the number of the terms appearing in the document "10398_txt_earn" only once
@@ -185,7 +185,7 @@ OR:
 
    <pre>
       sqlite> -- Find the common terms shared in two documents
-      
+
       sqlite> <font color="red"><strong>SELECT a.* FROM Frequency a, Frequency b</strong></font>
          ...> <font color="red"><strong>WHERE a.docid == "10080_txt_crude" AND b.docid == "17035_txt_earn"</strong></font>
          ...> <font color="red"><strong>AND a.term == b.term;</strong></font>

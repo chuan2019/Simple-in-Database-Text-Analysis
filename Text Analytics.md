@@ -185,7 +185,6 @@ OR:
 
    <pre>
       sqlite> -- Find the common terms shared in two documents
-
       sqlite> SELECT a.* FROM Frequency a, Frequency b
          ...> WHERE a.docid == "10080_txt_crude" AND b.docid == "17035_txt_earn"
          ...> AND a.term == b.term;
@@ -211,7 +210,6 @@ OR:
       17035_txt_earn  | profit| 4
       17035_txt_earn  | reuter| 1
       17035_txt_earn  | six   | 1
-
    </pre>
 
    Based on these observation, we have that the similarity between the two documents,

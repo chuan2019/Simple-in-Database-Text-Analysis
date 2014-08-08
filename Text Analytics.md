@@ -186,9 +186,9 @@ OR:
    <pre>
       sqlite> -- Find the common terms shared in two documents
 
-      sqlite> <font color="red"><strong>SELECT a.* FROM Frequency a, Frequency b</strong></font>
-         ...> <font color="red"><strong>WHERE a.docid == "10080_txt_crude" AND b.docid == "17035_txt_earn"</strong></font>
-         ...> <font color="red"><strong>AND a.term == b.term;</strong></font>
+      sqlite> <strong>SELECT a.* FROM Frequency a, Frequency b</strong>
+         ...> <strong>WHERE a.docid == "10080_txt_crude" AND b.docid == "17035_txt_earn"</strong>
+         ...> <strong>AND a.term == b.term;</strong>
       <font color="blue">
       10080_txt_crude | april | 1
       10080_txt_crude | ended | 1
